@@ -12,6 +12,6 @@
    
    -book exercises,
    
-   -professor: Clerivaldo, Antonio Lacerda(Tony).
+   -professor: .
    
  🪛 🔧 🔨 ⚒ 🛠 ⛏ 🪚 🔩 ⚙️ 🔭 🔬 ✏️
