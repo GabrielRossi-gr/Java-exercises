@@ -3,6 +3,9 @@ public class Relogio {
         int hora = 4;
         Relogio.Mensagem(hora);
     }
+
+
+    
     public static void Mensagem(int hora){
         switch(hora){
             case 1: 
