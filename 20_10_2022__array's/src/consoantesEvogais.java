@@ -17,6 +17,7 @@ public class consoantesEvogais{
                 vogais[x]=letra;
             }
             x++;
+            escaner.close();
         }
         
         for(x=0; x<6; x++){
@@ -30,7 +31,5 @@ public class consoantesEvogais{
                 System.out.println("vogal: "+vogais[x]);
             }
         }
-        
-        escaner.close();
     }
 }
