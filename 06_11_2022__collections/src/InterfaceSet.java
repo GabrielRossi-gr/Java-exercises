@@ -8,7 +8,7 @@ public class InterfaceSet{
     public static void main(String[] args){
         System.out.println("");
         
-            //formas de inicializar o set
+                //FORMAS DE INICIALIZAR SET
         // Set notas = new HashSet();  <--antes do java5
         //HashSet<Double> notas = new HashSet<>();
         //Set <Double> notas = new HashSet<>();
@@ -16,16 +16,19 @@ public class InterfaceSet{
         Set<Double> notas = new HashSet<>(Arrays.asList(7d, 8d,9d,3d));//notas de forma aleatoria e sem repitidos
 
         notas.add(10d);
+        System.out.println("\n add: "+notas);
+
         notas.remove(7d);
-        System.out.println(notas);
+        System.out.println("\n remove: "+notas);
 
         //conferir se a nota contem na lista
-        System.out.println("contem 5?: " + notas.contains(7d));
+        System.out.println("\n contem 5?: " + notas.contains(7d));
 
         //menor valor
-        System.out.println("menor nota: "+ Collections.min(notas));
+        System.out.println("\n menor nota: "+ Collections.min(notas));
 
-        
+        //maior valor
+        System.out.println("\n maior nota: "+ Collections.max(notas));
 
     }
 } 
