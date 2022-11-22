@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class maiorEmedia {
+public class maiorMedia {
     public static void main(String[] args) {
         
         /*
